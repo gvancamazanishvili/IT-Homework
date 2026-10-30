@@ -1,0 +1,94 @@
+@font-face {
+    font-family: text;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'text';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    min-height: 600px;
+    padding-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #00000052;
+    overflow: hidden;
+}
+.imgs{
+    width: 70%;
+    height: 140px;
+    object-fit: contain;
+}
+
+.items{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.description{
+    color: #0000006d;
+    margin-bottom: 20px;
+}
+
+.prices{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    gap: 10px;
+}
+
+.buyBtn{
+    width: 136%;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+.cards:nth-child(1) .buyBtn{
+    background-color: #dfdee3;
+}
+
+.cards:nth-child(2) .buyBtn{
+    background-color: #ecedf0;
+}
+.cards:nth-child(3) .buyBtn{
+    background-color: #e7e8e3;
+}
+.cards:nth-child(4) .buyBtn{
+    background-color: #dee7e9;
+}
+
+/* :nth-child() --> შეგვიძლია ჩვენ ავირჩიოთ id-ის გარეშე რომელი შვილი ელემენტისთვის გვინდა გადაწემა აამათუ იმ სტილის. მე მინდოდა პირველი ქარდის .buyBtn-თვის გამეწერა სხვა უკანა ფონი. და გავუწერე :nth-child(1) - მივანიშნებთ რომ პირველთან გვინდა*/

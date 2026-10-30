@@ -1,0 +1,53 @@
+#container{
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    gap: 30px;
+}
+
+.divs{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(143, 143, 216);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+.div3{
+    right: -760px;
+    top: -80px;
+}
+.div7{
+    bottom: -520px;
+}
+.div9{
+    bottom: -440px;
+    right: -760px;
+}
+
+.div4{
+    top: 33%;
+}
+
+.div6{
+    top: 21.5%;
+    right: -760px;
+}
+
+.div2{
+    right: -50%;
+    top: -5%;
+}
+
+.div5{
+    right: -50%;
+    top: 26%;
+}
+
+
+.div8{
+    right: -50%;
+    top: 60%;
+}

@@ -1,0 +1,31 @@
+h1{
+    background-color: #a9a9a9;
+    text-align: center;
+    color: #f9ecd2;
+}
+
+
+div{
+    background-color: #340143;
+    color: white;
+    font-weight: 800;
+}
+
+button{
+    background-color: #dc52ed;
+    color: white;
+    border: 2px dashed white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    color: #c86a34;
+}

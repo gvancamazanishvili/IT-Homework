@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+    position: relative;
+}
+.cards{
+    width: 150px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 30px;
+    transition: 0.2s ease-in-out;
+}
+.red{
+    left: 40px;
+    background-color: rgb(223, 61, 61);
+    z-index: 4;
+}
+.green{
+    left: 80px;
+    background-color: rgb(30, 139, 30);
+    z-index: 3;
+}
+.blue{
+    left: 120px;
+    background-color: rgb(29, 29, 161);
+    z-index: 2;
+}
+.purple{
+    left: 200px;
+    background-color: purple;
+    z-index: 1;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.cards:hover{
+    z-index: 10;
+    top: -20px;
+}

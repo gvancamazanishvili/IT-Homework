@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #01e37f;
+}
+
+#container{
+    display: block;
+    justify-content: flex-end;
+    position: relative;
+    width: 750px;
+    height: 480px;
+    background-color: white;
+    margin-left: 300px;
+}
+
+#left{
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #b6e053;
+    position: absolute;
+    left: -150px;
+    top: -25px;
+    box-shadow: 0px 10px 30px #b3f123;
+    overflow: visible;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    padding: 10px;
+    gap: 340px;
+}
+#apples{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+#main-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+#apple-img{
+    position: relative;
+    left: -120px;
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
+
+.small-apples{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: none;
+    border: 2px solid #b6e053;
+
+}
+
+#right{
+    width: 55%;
+    height: auto;
+    padding: 40px 40px 40px 60px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 20px;
+}
+
+#sectionOne{
+    margin-bottom: 30px;
+}
+#sectionOne h1{
+    font-size: 26px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+#sectionOne span{
+    color: #70707083;
+}
+
+#sectionTwo span{
+    font-size: 14px;
+    color: #ff3637;
+    font-weight: 400;
+}
+#sectionTwo h1{
+    color: #ff3637;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#colors p{
+    color: #70707083;
+    font-size: 16px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#chosen{
+    border: 2px solid #b6e053;
+}
+.color-cards{
+    width: 50px;
+    height:  50px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+#benefits p{
+    color: #70707083;
+    margin-bottom: 10px;
+}
+#benefits{
+    margin-bottom: 30px;
+}
+
+#addToCart{
+    width: 50%;
+    height: 45px;
+    background-color: #ff3637;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 10px 30px #df717190;
+    border-radius: 10px;
+}

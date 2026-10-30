@@ -1,0 +1,44 @@
+#parent{
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#purpleCard{
+    background-color: #dfa4ec;
+    width: auto;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -50px;
+}
+#profile #pfp{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+h3{
+    color: rgb(237, 109, 218);
+}
+#btn{
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 800;
+    border-radius: 20px;
+    background-color: rgb(223, 164, 236);
+    border: none;
+}
+p{
+    width: 200px;
+}

@@ -1,0 +1,27 @@
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(143, 11, 11);
+    position: relative;
+}
+
+.green{
+    background-color: rgb(9, 128, 9);
+    right: -50px;
+    top: 30px;
+}
+
+.blue{
+    background-color: rgb(14, 14, 133);
+    top: -20px;
+}
+
+
+.red{
+    position: static;
+    top: 10px;
+}
+
+/* არაფერი შეიცვალა რადგან static ისედაც არის საწყისი მნიშვნელობა  */

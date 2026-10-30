@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* შეგვიძლია google-დან სასურველი ფონტი გადმოვწეროთ ან დავაიმპორტოთ ანუ შემოვიტანოთ ჩვენს ამ კონკრეტულ ფაილში, თითოეულ მათგანს აქვს თავიანთი font-faimily */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    font-family: "Archivo", sans-serif;
+}
+
+
+#main {
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 10px #656467;
+    margin: 40px 0px 0px 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#mountain {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+} 
+
+
+#content {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+p{
+    width: 250px;
+    font-size: 17px;
+    color: #5c677b;
+}
+
+button{
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 10px 10px 5px 5px;
+    background-color: #e4e8ef;
+    text-align: start;
+    padding: 10px;
+    color: #242a39;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 13px;
+}
+

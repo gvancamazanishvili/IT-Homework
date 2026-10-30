@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px;    
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: auto;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.right{
+    padding: 40px;
+    background-color: #f0e8e7a8;
+}
+
+.right h1{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.right p{
+    font-size: 20px;
+}
+
+.right .mouseover{
+    text-align: right;
+    font-size: 15px;
+    color: #333;
+    margin-top: 80px;
+}
+
+.left .pfp{
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.lvls{
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    margin: 0 0 30px ;
+    color: white;
+    font-weight: 500;
+}
+
+.points{
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+#bgOne{
+    background-color: #716563;
+}
+
+#btnOne{
+    background-color: #4e4645a8;
+}
+#lvlBgOne{
+    background-color: #4e4645a8;
+}
+#bgTwo{
+    background-color: #87cc79;
+}
+
+#btnTwo{
+    background-color: #5c8b53a8;
+}
+#lvlBgTwo{
+    background-color: #5c8b53a8;
+}

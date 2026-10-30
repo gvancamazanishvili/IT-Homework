@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #eabf44;
+}
+
+#parent{
+    width: 800px;
+    height: auto;
+    background-color: white;
+    margin: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    .texts{
+        padding: 30px;
+        font-size: 18px;
+    }
+    h1{
+        background-color: #d9675a;
+        color: white;
+        font-size: 24px;
+    }
+
+    #numberOne{
+        color: #abde7c;
+    }
+
+    h4{
+        color: grey;
+        font-weight: 300;
+    }
+
+    #blue{
+        background-color: #7ec8d8;
+        color: white;
+        padding: 20px 30px;
+    }
+}

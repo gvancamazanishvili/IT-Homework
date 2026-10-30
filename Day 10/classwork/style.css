@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F9F6EE;
+}
+
+
+#container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    margin-top: 200px;
+    background-color: white;
+    padding: 240px 30px 50px 30px;
+    box-shadow: 0px 10px 30px rgb(0,0, 0, 0.05);
+}
+
+#picture{
+    top: -200px;
+    left: -5%;
+    width: 400px;
+    position: absolute;
+}
+#img{
+    width: 150%;
+    height: auto;
+}
+
+.arrow{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #CF2E3E;
+    border: none;
+    box-shadow: 0px 10px 30px rgb(0,0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+}
+.arrow img {
+    width: 16px;
+    height: 16px;
+}
+
+.arrow-left{
+    left: -21px;
+}
+.arrow-right{
+    right: -21px;
+}
+
+
+
+#sectionTwo{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+#sectionTwo h1{
+    color: #e02438;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+#sectionTwo p{
+    font-size: 15px;
+    line-height: 1.6;
+    color: #8c8c8c;
+    font-weight: 600;
+    max-width: 280px;
+}
+
+
+#money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.blocks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blocks .label{
+    font-size: 15px;
+    color: #6666;
+    font-weight: 800;
+}
+
+.blocks .value{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #333333;
+    font-size: 14px;
+}
+
+.blocks .value .add-minus{
+    width: 20px;
+    height: 20px;
+    background-color: #6666663e;
+    padding: 2px;
+    border-radius: 50%;
+}
+.blocks .price span{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#addToCart{
+    position: absolute;
+    bottom: -22px;
+    width: 220px;
+    height: 45px;
+    background-color: #CF2E3E;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 10px 30px rgb(209, 139, 139);
+}

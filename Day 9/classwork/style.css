@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'text';
+    src: url(./fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'text';
+}
+
+body{
+    background-color: #c8daff;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    height: 900px;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+form h1{
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+form p{
+    color: rgba(133, 135, 133, 0.63);
+}
+.cardOne{
+    display: flex;
+    text-align: start;
+    gap: 200px;
+    margin-top: 40px;
+    color: rgba(133, 135, 133, 0.63);
+}
+
+.cardOne input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 40px;
+    padding: 20px;
+    outline: none;
+    margin-top: 20px;
+}
+
+input::placeholder{
+    color: rgba(133, 135, 133, 0.63);
+    font-size: 18px;
+}
+#sectionTwo{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    color: rgba(133, 135, 133, 0.63);
+}
+
+#question{
+    resize: none;
+    outline: none;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 200px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#question::placeholder{
+    color: rgba(133, 135, 133, 0.63);
+    font-size: 18px;
+}
+
+#submit{
+    height: 60px;
+    background-color: #6da3e2;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 10px;
+}
